@@ -8,7 +8,7 @@ This library is similar thing like bootstrap responsive grid but with pagination
 ### Link Library
 ```html
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script type="text/javascript" src="lib/hip.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/llxx-lord-xxll/html-item-pagination/lib/hip.js"></script>
 ```
 ### HTML
   ```html
