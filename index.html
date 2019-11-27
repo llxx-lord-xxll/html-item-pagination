@@ -7,6 +7,8 @@
   <meta name="description" content="HTML ITEM PAGINATION - A HTML ELEMENT PAGINATOR">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+
+
 <body>
 
 <h1>
@@ -21,7 +23,7 @@
   <div class="hip-item">
       Content 1
   </div>
-  <div class="hip-item">
+  <div class="hip-item" data-tags="tag1 tag2">
     Content 2
   </div>
   <div class="hip-item">
@@ -30,22 +32,22 @@
   <div class="hip-item">
     Content 4
   </div>
-  <div class="hip-item">
+  <div class="hip-item" data-tags="tag1 tag3">
     Content 5
   </div>
-  <div class="hip-item">
+  <div class="hip-item" data-tags="tag2">
     Content 6
   </div>
   <div class="hip-item">
     Content 7
   </div>
-  <div class="hip-item">
+  <div class="hip-item" data-tags="tag1 tag5">
     Content 8
   </div>
   <div class="hip-item">
     Content 9
   </div>
-  <div class="hip-item">
+  <div class="hip-item" data-tags="tag3 tag2">
     Content 10
   </div>
   <div class="hip-item">
@@ -115,8 +117,9 @@
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script type="text/javascript" src="lib/hip.js"></script>
 <script>
- $(document).ready(function () {
-   $("#html-item-pagination").hip({itemHeight:'200px'});
+ jQuery(document).ready(function ($) {
+   $("#html-item-pagination").hip({itemHeight:'200px',filter:true,filterPos:'center'});
+
  });
 </script>
 </body>
