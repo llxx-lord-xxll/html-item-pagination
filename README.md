@@ -81,4 +81,4 @@ lg | Applies to this rule when minimum screen width of 1200px and up.
 The values recieved as integer, are actually the items on each row in the grid layout at different screen width
 
 ## Screenshot
-![HIP SCREENSHOT](https://res.cloudinary.com/llxx-lord-xxll/image/upload/v1574253844/hip/hip_h31zgf.png)
+![HIP SCREENSHOT](https://res.cloudinary.com/llxx-lord-xxll/image/upload/v1574893830/hip/hip_rw1pc2.png)
