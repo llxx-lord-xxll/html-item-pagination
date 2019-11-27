@@ -64,6 +64,9 @@ itemGaps | Gap between each items in the grid (Integer in PX), Default = 15
 paginationPos | Position of the pagination, (left,center,right), Default = 'center'
 itemHeight | Row height for each rows in the grid, Default = 'auto'(flexible)
 dynItemsPerRow | This is the part where it can be responsive, Example - dynItemsPerRow: {hs:1,sm:2,md:3,lg:4}
+filter | Option to enable/disable filtering
+filterPos | Position of the filter input, (left,center,right), Default = 'center'
+filterText | Placeholder on filter input
 
 #### dynItemsPerRow Configauration
 Defaults are set to original itemsPerRow
