@@ -4,6 +4,9 @@ Ever wondered a gallery layout with paging system for your HTML Elements ?
 We have a jQuery [Datatable](https://datatables.net/) & [Bootstrap Table](https://getbootstrap.com/docs/4.3/content/tables/) for responsive tables with advanced filtering technology.
 
 This library is similar thing like bootstrap responsive grid but with pagination system. There will be items displayed page by page. Pages and Pagination below the element will be automatically created by this library.
+
+So, it's a gallery like layout with paging system. There will be lots of other filtering and theme options coming soon!
+
 ## USAGE
 ### Link Library
 ```html
