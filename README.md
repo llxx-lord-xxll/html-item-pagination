@@ -15,7 +15,7 @@ So, it's a gallery like layout with paging system. There will be lots of other f
 ```
 ### HTML
   ```html
-<div id="html-item-pagination" class="hip-grid">
+<div id="html-item-pagination">
     <div class="hip-item">
         Content 1
     </div>
