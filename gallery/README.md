@@ -1,4 +1,4 @@
-# HIP.JS GALLERY ADDON
+# HIP.JS GALLERY EXTENSION
 This is an extension to create a gallery layout where images are shown in responsive way and users can download the original images. This gallery is without lightbox viewer! 
 
 ## USAGE
