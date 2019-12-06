@@ -29,7 +29,7 @@ jQuery.fn.hipgallery = function(param) {
                 '        <div class="hip-text-bottom-left">'+title+'</div>\n' +
                 '        <div class="hip-img-overlay">\n' +
                 '          <div class="hip-text-bottom-left">'+title+'</div>\n' +
-                '          <a href="'+download+'" download="'+download+'" class="hip-text-top-right hip-download">&#x1F4E5;</a>\n' +
+                '          <a title="Download" href="'+download+'" download="'+download+'" class="hip-download">&#x1F4E5;</a>\n' +
                 '        </div>\n' +
                 '      </div>\n' +
                 '  </div>';
@@ -53,6 +53,7 @@ jQuery.fn.hipgallery = function(param) {
             '\n' +
             '    .hip-text-bottom-left {\n' +
             '      position: absolute;\n' +
+            '      font-size: 18px;' +
             '      bottom: 8px;\n' +
             '      left: 8px;\n' +
             '    }\n' +
@@ -82,6 +83,13 @@ jQuery.fn.hipgallery = function(param) {
             '    .hip-img-overlay .hip-text-bottom-left{\n' +
             '      color: white;\n' +
             '    }' +
+            '.hip-download{' +
+            '      position: absolute;\n' +
+            '  top: 50%;\n' +
+            '  left: 50%;\n' +
+            '  font-size: 60px;\n' +
+            '  transform: translate(-50%, -50%);'+
+            '}'+
             '</style>');
 
         objects.append(tmp);
